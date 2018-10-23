@@ -1,0 +1,11 @@
+# 256
+SIZE = 202
+PAD  = 27
+
+# 128
+if 1:
+    SIZE = 102
+    PAD  = 13
+
+Y0, Y1, X0, X1 = PAD, PAD+SIZE, PAD, PAD+SIZE
+IMG_NET_SIZE = SIZE + PAD*2
